@@ -1,6 +1,6 @@
 'use strict'
 
-import L from 'Leaflet'
+import L from 'leaflet'
 import GeotagPhotoCrosshair from './src/Leaflet.GeotagPhoto.Crosshair'
 import GeotagPhotoCamera from './src/Leaflet.GeotagPhoto.Camera'
 
