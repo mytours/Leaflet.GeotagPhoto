@@ -1,6 +1,7 @@
 'use strict'
 
 import L from 'leaflet'
+window.L = L
 import GeotagPhotoCrosshair from './src/Leaflet.GeotagPhoto.Crosshair'
 import GeotagPhotoCamera from './src/Leaflet.GeotagPhoto.Camera'
 
