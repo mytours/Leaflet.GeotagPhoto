@@ -1,10 +1,11 @@
 import L from 'leaflet'
 window.L = L
 
+const controlCrosshairImg = '../images/crosshair-icon.svg'
 export default L.Evented.extend({
   options: {
-    controlCrosshairImg: '../images/crosshair-icon.svg',
-    crosshairHTML: '<img alt="Center of the map; crosshair location" title="Crosshair" src="' + options.controlCrosshairImg + '" width="100px" />'
+    controlCrosshairImg,
+    crosshairHTML: '<img alt="Center of the map; crosshair location" title="Crosshair" src="' + controlCrosshairImg + '" width="100px" />'
   },
 
   initialize: function (options) {
