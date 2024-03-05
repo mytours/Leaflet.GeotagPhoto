@@ -1,4 +1,4 @@
-import L from 'leaflet'
+const L = window.L
 import { fromFeature } from 'field-of-view'
 
 import GeotagPhotoCameraControl from './Leaflet.GeotagPhoto.CameraControl'
