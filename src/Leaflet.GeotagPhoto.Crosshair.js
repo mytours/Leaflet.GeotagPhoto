@@ -1,5 +1,4 @@
-import L from 'leaflet'
-window.L = L
+const L = window.L
 
 const controlCrosshairImg = '../images/crosshair-icon.svg'
 export default L.Evented.extend({

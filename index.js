@@ -1,7 +1,6 @@
 'use strict'
 
-import L from 'leaflet'
-window.L = L
+const L = window.L
 import GeotagPhotoCrosshair from './src/Leaflet.GeotagPhoto.Crosshair'
 import GeotagPhotoCamera from './src/Leaflet.GeotagPhoto.Camera'
 

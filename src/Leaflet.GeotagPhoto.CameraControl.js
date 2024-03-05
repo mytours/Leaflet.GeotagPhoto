@@ -1,5 +1,4 @@
-import L from 'leaflet'
-window.L = L
+const L = window.L
 
 export default L.Control.extend({
   options: {
