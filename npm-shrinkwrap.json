@@ -1,0 +1,51 @@
+{
+  "name": "leaflet-geotag-photo",
+  "version": "0.6.2",
+  "dependencies": {
+    "@turf/bearing": {
+      "version": "3.14.0",
+      "from": "@turf/bearing@>=3.7.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/bearing/-/bearing-3.14.0.tgz"
+    },
+    "@turf/centroid": {
+      "version": "3.14.0",
+      "from": "@turf/centroid@>=3.7.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/centroid/-/centroid-3.14.0.tgz"
+    },
+    "@turf/destination": {
+      "version": "3.14.0",
+      "from": "@turf/destination@>=3.7.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/destination/-/destination-3.14.0.tgz"
+    },
+    "@turf/distance": {
+      "version": "3.14.0",
+      "from": "@turf/distance@>=3.7.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/distance/-/distance-3.14.0.tgz"
+    },
+    "@turf/helpers": {
+      "version": "3.13.0",
+      "from": "@turf/helpers@>=3.13.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/helpers/-/helpers-3.13.0.tgz"
+    },
+    "@turf/invariant": {
+      "version": "3.13.0",
+      "from": "@turf/invariant@>=3.13.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/invariant/-/invariant-3.13.0.tgz"
+    },
+    "@turf/meta": {
+      "version": "3.14.0",
+      "from": "@turf/meta@>=3.14.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/@turf/meta/-/meta-3.14.0.tgz"
+    },
+    "field-of-view": {
+      "version": "0.2.2",
+      "from": "field-of-view@>=0.2.2 <0.3.0",
+      "resolved": "https://registry.npmjs.org/field-of-view/-/field-of-view-0.2.2.tgz"
+    },
+    "leaflet": {
+      "version": "1.9.4",
+      "from": "leaflet@>=1.0.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz"
+    }
+  }
+}
